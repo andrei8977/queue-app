@@ -29,20 +29,16 @@
 ## Project setup
 
 ```bash
-$ npm install
+$ git clone https://github.com/andrei8977/queue-app
+$ cd queue-app
 ```
 
 ## Compile and run the project
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ docker-compose build
+$ docker-compose up
+$ docker-compose up --build
 ```
 
 ## Run tests
